@@ -1,50 +1,90 @@
 /* Mobile phones */
-.libra-bg-header {
-  background-color: #5a60d0;
-}
+@media only screen and (max-width: 768px) {
+  .libra-bg-header {
+    background-color: #5a60d0;
+  }
 
-.libra-brand {
-  color: #0f0f0f;
-}
+  .libra-brand {
+    color: #0f0f0f;
+  }
 
-.libra-nav-item {
-  padding-top: 20px;
-}
+  .libra-nav-item {
+    padding-top: 20px;
+  }
 
-.libra-nav-text {
-  color: #222222;
-  font-size: 24px;
+  .libra-nav-text {
+    color: #222222;
+    font-size: 24px;
 
-  padding-left: 10px;
-  padding-right: 10px;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-.libra-nav-text:link {
-  text-decoration: none;
-}
+  .libra-nav-text:link {
+    text-decoration: none;
+  }
 
-.libra-nav-text:hover {
-  color: #000000;
-}
+  .libra-nav-text:hover {
+    color: #000000;
+  }
 
-.libra-nav-selected {
-  color: #111111;
-  font-weight: bold;
-}
+  .libra-nav-selected {
+    color: #111111;
+    font-weight: bold;
+  }
 
-.dropdown-item:hover {
-  color: inherit;
-  cursor: pointer;
-  background-color: #829bee;
-}
+  .dropdown-item:hover {
+    color: inherit;
+    cursor: pointer;
+    background-color: #829bee;
+  }
 
-.libra-submenu-bg {
-  background-color: #a5a8eaee;
+  .libra-submenu-bg {
+    background-color: #a5a8eaee;
+  }
 }
 
 /* Desktop devices */
 @media only screen and (min-width: 768px) {
+  .libra-bg-header {
+    background-color: #5a60d0;
+  }
+
+  .libra-brand {
+    color: #0f0f0f;
+  }
+
+  .libra-nav-item {
+  }
+
   .libra-nav-text {
+    color: #222222;
     font-size: 16px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .libra-nav-text:link {
+    text-decoration: none;
+  }
+
+  .libra-nav-text:hover {
+    color: #000000;
+  }
+
+  .libra-nav-selected {
+    color: #111111;
+    font-weight: bold;
+  }
+
+  .dropdown-item:hover {
+    color: inherit;
+    cursor: pointer;
+    background-color: #829bee;
+  }
+
+  .libra-submenu-bg {
+    background-color: #a5a8eaee;
   }
 }
