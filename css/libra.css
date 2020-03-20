@@ -1,10 +1,11 @@
-/* Mobile phones */
+/* Small mobile phones */
 @media only screen and (max-width: 768px) {
   .libra-bg-header {
     background-color: #5a60d0;
   }
 
   .libra-brand {
+    font-size: 18px;
     color: #0f0f0f;
   }
 
@@ -14,7 +15,7 @@
 
   .libra-nav-text {
     color: #222222;
-    font-size: 60px;
+    font-size: 30px;
 
     padding-left: 10px;
     padding-right: 10px;
@@ -44,13 +45,61 @@
   }
 }
 
-/* Desktop devices */
+/* Regular mobile phones */
 @media only screen and (min-width: 768px) {
   .libra-bg-header {
     background-color: #5a60d0;
   }
 
   .libra-brand {
+    font-size: 18px;
+    color: #0f0f0f;
+  }
+
+  .libra-nav-item {
+    padding-top: 10px;
+  }
+
+  .libra-nav-text {
+    color: #222222;
+    font-size: 24px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .libra-nav-text:link {
+    text-decoration: none;
+  }
+
+  .libra-nav-text:hover {
+    color: #000000;
+  }
+
+  .libra-nav-selected {
+    color: #111111;
+    font-weight: bold;
+  }
+
+  .dropdown-item:hover {
+    color: inherit;
+    cursor: pointer;
+    background-color: #829bee;
+  }
+
+  .libra-submenu-bg {
+    background-color: #a5a8eaee;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+  .libra-bg-header {
+    background-color: #5a60d0;
+  }
+
+  .libra-brand {
+    font-size: 18px;
     color: #0f0f0f;
   }
 
