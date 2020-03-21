@@ -1,94 +1,100 @@
-/* Small mobile phones */
-@media only screen and (max-width: 768px) {
-  .libra-bg-header {
-    background-color: #5a60d0;
-  }
-
-  .libra-brand {
-    font-size: 18px;
-    color: #0f0f0f;
-  }
-
-  .libra-nav-item {
-    padding-top: 20px;
-  }
-
-  .libra-nav-text {
-    color: #222222;
-    font-size: 30px;
-
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .libra-nav-text:link {
-    text-decoration: none;
-  }
-
-  .libra-nav-text:hover {
-    color: #000000;
-  }
-
-  .libra-nav-selected {
-    color: #111111;
-    font-weight: bold;
-  }
-
-  .dropdown-item:hover {
-    color: inherit;
-    cursor: pointer;
-    background-color: #829bee;
-  }
-
-  .libra-submenu-bg {
-    background-color: #a5a8eaee;
-  }
+.libra-bg-header {
+  background-color: #5a60d0;
 }
 
+.libra-active {
+  font-weight: bold;
+}
+
+.libra-brand {
+  vertical-align: middle;
+  font-size: 30px;
+  color: #0f0f0f;
+}
+
+.libra-nav-item {
+  padding-top: 20px;
+}
+
+.libra-nav-text {
+  color: #222222;
+  font-size: 28px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.libra-nav-text:link {
+  text-decoration: none;
+}
+
+.libra-nav-text:hover {
+  color: #000000;
+}
+
+.libra-nav-selected {
+  color: #111111;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  color: inherit;
+  cursor: pointer;
+  background-color: #829bee;
+}
+
+.libra-submenu-bg {
+  background-color: #a5a8eaee;
+}
+
+.d-inline-block {
+  vertical-align: middle;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+}
+
+.libra-page-content {
+  margin: 3%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+main {
+  padding-top: 120px;
+}
+
+body {
+  background-image: url(../img/bg-img.jpg);
+}
+
+a:link {
+  color:inherit;
+  text-decoration: none;
+}
 /* Regular mobile phones */
-@media only screen and (min-width: 768px) {
-  .libra-bg-header {
-    background-color: #5a60d0;
-  }
-
-  .libra-brand {
-    font-size: 18px;
-    color: #0f0f0f;
-  }
-
+@media only screen and (min-width: 768px) and (max-width: 1199px){
   .libra-nav-item {
+    position: relative;
+    top: 50%;
+    transform: translateY(-6%);
     padding-top: 10px;
+    padding-bottom: 2px;
   }
 
   .libra-nav-text {
     color: #222222;
     font-size: 24px;
-
+    vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .libra-nav-text:link {
-    text-decoration: none;
-  }
-
-  .libra-nav-text:hover {
-    color: #000000;
-  }
-
-  .libra-nav-selected {
-    color: #111111;
-    font-weight: bold;
-  }
-
-  .dropdown-item:hover {
-    color: inherit;
-    cursor: pointer;
-    background-color: #829bee;
-  }
-
-  .libra-submenu-bg {
-    background-color: #a5a8eaee;
+  main {
+    padding-top: 80px;
   }
 }
 
@@ -99,41 +105,18 @@
   }
 
   .libra-brand {
-    font-size: 18px;
-    color: #0f0f0f;
+    font-size: 22px;
   }
 
   .libra-nav-item {
+    padding-top: 0px;
   }
 
   .libra-nav-text {
-    color: #222222;
     font-size: 16px;
-
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
-  .libra-nav-text:link {
-    text-decoration: none;
-  }
-
-  .libra-nav-text:hover {
-    color: #000000;
-  }
-
-  .libra-nav-selected {
-    color: #111111;
-    font-weight: bold;
-  }
-
-  .dropdown-item:hover {
-    color: inherit;
-    cursor: pointer;
-    background-color: #829bee;
-  }
-
-  .libra-submenu-bg {
-    background-color: #a5a8eaee;
+  main {
+    padding-top: 60px;
   }
 }
