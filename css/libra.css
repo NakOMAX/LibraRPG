@@ -54,21 +54,34 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr;
+}
+
+.libra-side-nav {
+  max-height: 40%;
+  position: sticky;
+  overflow-y: auto;
+  top: 80px;
+  text-align: left;
 }
 
 .libra-page-content {
-  margin: 3%;
+  margin: 20px;
+  padding: 50px;
   border-radius: 15px;
   background-color: white;
 }
 
 main {
-  padding-top: 120px;
+  margin-top: 20px;
 }
 
 body {
   background-image: url(../img/bg-img.jpg);
+}
+
+p {
+  text-align: justify;
+  text-indent: 12px;
 }
 
 a:link {
