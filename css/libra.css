@@ -71,6 +71,9 @@
   background-color: white;
 }
 
+.not-indent {
+  text-indent: 0px;
+}
 main {
   margin-top: 20px;
 }
@@ -92,6 +95,17 @@ a:link {
 a:visited {
   color: inherit;
 }
+
+.libra-link:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.libra-link:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
 /* Regular mobile phones */
 @media only screen and (min-width: 768px) and (max-width: 1199px){
   .libra-nav-item {
