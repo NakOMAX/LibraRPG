@@ -56,6 +56,9 @@
   grid-template-columns: 1fr 3fr;
 }
 
+.grid-container-razas {
+}
+
 .libra-side-nav {
   max-height: 70%;
   position: sticky;
@@ -74,8 +77,9 @@
 .not-indent {
   text-indent: 0px;
 }
+
 main {
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 body {
@@ -83,6 +87,7 @@ body {
 }
 
 p {
+  margin-top: 10px;
   text-align: justify;
   text-indent: 12px;
 }
@@ -104,6 +109,10 @@ a:visited {
 .libra-link:visited {
   color: blue;
   text-decoration: underline;
+}
+
+.in-page-photo {
+  width:100%;
 }
 
 /* Regular mobile phones */
@@ -135,6 +144,14 @@ a:visited {
   h1 {
     font-size: 22px;
   }
+  p {
+    margin-top: 0px;
+  }
+  
+  .grid-container-razas {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
 }
 
 /* Desktop */
@@ -155,7 +172,16 @@ a:visited {
     font-size: 16px;
   }
 
+  .grid-container-razas {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
   main {
     padding-top: 60px;
+  }
+
+  p {
+    margin-top: 0px;
   }
 }
